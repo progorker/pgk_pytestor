@@ -26,9 +26,6 @@ sys.path.append( os.path.abspath( "../pyTestor" ) )
 
 import pytestor
 
-global g_testor_dir, g_suite_code, g_testor_username, g_testor_password, g_token
-, g_src_dir, g_suite_id, g_last_version, g_clear_version
-
 pytestor.g_testor_username = 'mytestor'
 pytestor.g_testor_password = 'rzutomqahegpnyx'
 pytestor.g_suite_code = 'pytestorcheck'
