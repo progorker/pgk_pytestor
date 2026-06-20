@@ -40,8 +40,6 @@ pytestor.g_case_code = 'test_numbers'
 
 pytestor.api_testor_startup()
 
-abc()
-
 v_suite_id, v_case_id = pytestor.api_testor_suite_case( pytestor.g_token, pytestor.g_suite_code, pytestor.g_case_code )
 print( "Suite ID: " + str(v_suite_id) + "\n" )
 print( "Case ID: " + str(v_case_id) + "\n" )
@@ -51,6 +49,8 @@ v_dbl_a = 20.5
 v_dbl_b = 21.5
 v_test_id = pytestor.api_testor_equals( pytestor.g_token, v_suite_id, v_case_id, v_test_code, v_dbl_a, v_dbl_b )
 print( "Test ID: " + str(v_test_id) + "\n" )
+
+func_not_declared()
 
 pytestor.api_testor_shutdown()
 -----
